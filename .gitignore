@@ -1,2 +1,38 @@
-node_module
+# 🚀 Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🏗️ Build files
+build/
+dist/
+.cache/
+.next/
+
+# 🛠️ Environment Variables
 .env
+.env.local
+.env.development
+.env.production
+
+# 📦 Logs and temporary files
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 🔧 Editor and OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# ⚡ Render deployment-specific
+render-build/
